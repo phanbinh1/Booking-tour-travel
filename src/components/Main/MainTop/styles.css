@@ -1,0 +1,112 @@
+.images-search-container{
+   background-image: url(../../../images/images-search-1.jpg);
+   height: 492px;
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+   /* align-items: center; */
+}
+.search-tours-title{
+   width: 760px;
+   min-height: 100px;
+   background: rgba(0, 0, 0, 0.548);
+   border-radius: 4px;
+   padding: 0px 20px 0px 20px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+.search-tour-content{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+.address-tours{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   min-height: 40px;
+   background: white;
+   border-radius: 4px;
+   margin-bottom: 15px;
+}
+.search-tours-title .schedule-go{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.day-tour{
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   width: 300px;
+   height: 60px;
+   height: 60px;
+   background: white;
+   border-radius: 4px;
+}
+.place-tours{
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   width: 300px;
+   height: 60px;
+   height: 60px;
+   background: white;
+   border-radius: 4px;
+}
+.contentStyle-one{
+   height: 492px;
+    background-image: url(../../../images/images-search-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contentStyle-two{
+   height: 492px;
+    background-image: url(../../../images/images-search-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contentStyle-three{
+   height: 492px;
+    background-image: url(../../../images/images-search-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contentStyle-four{
+   height: 492px;
+    background-image: url(../../../images/images-search-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gutter-row{
+   padding: 0 8px;
+  background: #00a0e9;
+}
+.search-tour-row{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   display: flex;
+   height: 100%;
+   transform: translate(-50%, -50%);
+}
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+   border: none !important;
+}
+/* .ant-select:focus, .ant-select {
+   box-shadow: none !important;
+   border: none !important;
+   outline: none;
+} */
+
+/* .ant-input:focus, .ant-input-focused {
+   box-shadow: none !important;
+} */

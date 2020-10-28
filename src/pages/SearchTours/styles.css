@@ -1,0 +1,12 @@
+
+.ant-card-body{
+   padding: 0px !important;
+}
+.place-active{
+   background: rgb(116, 116, 116);
+   transition: all .3s ease;
+}
+.hover-cart .placeHot:hover{
+   background: rgb(116, 116, 116) !important;
+   transition: all .3s ease;
+}

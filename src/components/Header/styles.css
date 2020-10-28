@@ -1,0 +1,134 @@
+.header-container{
+   position: fixed !important;
+   top: 0;
+   width: 100%;
+   z-index: 99;
+   background:#003C71;
+}
+.header-content{
+   width: 1170px;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   display: flex;
+   justify-content: center;
+   line-height: 52px;
+}
+/* Logo */
+nav .logo{
+   display: flex;
+   align-items: center;
+   color: white;
+   font-size: 25px;
+}
+
+/* menu */
+nav ul{
+   display: flex;
+   align-items: center;
+   margin: 0px;
+   list-style: none;
+   margin-right: 10px;
+   position: relative;
+}
+nav ul li{
+   display: inline-block;
+   margin: 5px;
+}
+nav ul li a{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: white;
+   text-decoration: none !important;
+   
+   font-size: 18px;
+   padding: 8px 10px;
+}
+nav ul .hover-active{
+   color: cyan;
+   border-radius: 5px;
+   box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+   transition: all .5s;
+}
+nav ul li a:hover{
+   color: cyan;
+   border-radius: 5px;
+   box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+   transition: all .5s;
+}
+
+nav ul li:hover > ul{
+   top: 70px;
+   opacity: 1;
+   visibility: visible;
+}
+
+/* tài khoản */
+nav .account-person{
+   display: flex;
+   align-items: center;
+   margin-left: 70px;
+}
+   nav .person{
+   height: 38px;
+   width: 38px;
+   margin-right:8px ;
+   background:  #003C71;
+   border: 3px solid white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+nav .account-person:hover{
+   cursor: pointer;
+}
+
+/* navbar */
+.fa-plus{
+   margin-left: 40px;
+   font-size: 15px;
+}
+/* .show, input{
+   display: none;
+} */
+.class-icon{display: none;}
+
+@media all and (max-width: 968px){
+   .header-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+   }
+   nav ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left:0px;
+   }
+   .class-icon{
+      position: relative;
+      top: 20px;
+      display: block;
+   }
+   nav .icon{
+      display: block;
+      color: white;
+      position: absolute;
+      right: 40px;
+      line-height: 70px;
+      font-size: 25px;
+      cursor: pointer;
+   }
+ nav  ul,nav  .account-person, nav .help-phone {
+      display: none;
+   }
+   [id^=btn]:checked + ul{
+      display: flex;
+    }
+    [id^=btn]:checked ~ div{
+      display: flex;
+    }
+}

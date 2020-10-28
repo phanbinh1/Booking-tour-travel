@@ -1,0 +1,40 @@
+.tours-fluid-container{
+   /* background-color: #ecf0f5; */
+   background: #f0f0f0;
+}
+.tours-container{
+   width: 1170px;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   
+}
+.tour-introduction{
+   background: rgb(247, 172, 172) !important;
+}
+.gly-map-marker{
+   position: relative;
+   bottom: 28px;
+   display: flex;
+   justify-content: center;
+   min-width: 99px;
+   height: 28px;
+   background: rgba(0,70,126,0.8);
+   color: white;
+}
+.name-tour{
+   position: relative;
+   bottom: 20px;
+   display: flex;
+   justify-content: center;
+   color: #003C71;
+   font-weight: bold;
+   font-size: 16px;
+
+}
+.hover-see-more:hover{
+   cursor: pointer;
+   opacity: 1 !important;
+   color: #003C71;
+}

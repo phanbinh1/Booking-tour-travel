@@ -1,0 +1,16 @@
+.not-found{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   min-height: 692px;
+}
+.not-found-content{
+   background-color: white;
+   padding: 50px 100px;
+   box-shadow: 1px 1px 3px #ccc;
+   border-radius: 5px;
+}
+.not-found-content > h2{
+   color: #1882B0;
+}
